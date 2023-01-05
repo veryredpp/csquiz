@@ -15,6 +15,7 @@ jobs:
       uses: JackMcKew/pyinstaller-action-windows@main
       with:
         spec: main.spec
+        requirements: requirements.txt
       
         
     - name: Upload Artifact
